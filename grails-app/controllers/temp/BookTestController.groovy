@@ -7,6 +7,7 @@ class BookTestController {
         flash.message = "Welcome!"
         redirect(action: 'home')
        // forward(actionName : 'home')
+        //
 
     }
     def home(){
