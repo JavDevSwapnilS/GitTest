@@ -5,8 +5,8 @@ class BookTestController {
     static defaultAction = "home"
     def index() {
         flash.message = "Welcome!"
-       // redirect(action: 'home')
-        forward(actionName : 'home')
+        redirect(action: 'home')
+       // forward(actionName : 'home')
 
     }
     def home(){
