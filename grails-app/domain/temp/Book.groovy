@@ -8,6 +8,7 @@ class Book {
     String Publisher
     String distributor
     int noOfPages = 0
+    String type
 
     static constraints = {
         title nullable: true, maxSize: 50
@@ -15,5 +16,6 @@ class Book {
         author nullable: true
         distributor nullable: true
         noOfPages nullable: true
+        type nullable: true
     }
 }
