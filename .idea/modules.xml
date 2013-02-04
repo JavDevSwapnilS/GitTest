@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Temp.iml" filepath="$PROJECT_DIR$/Temp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Temp-grailsPlugins.iml" filepath="$PROJECT_DIR$/Temp-grailsPlugins.iml" />
     </modules>
   </component>
 </project>

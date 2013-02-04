@@ -5,6 +5,7 @@ class Book {
     String title
     Date releaseDate
     String author
+    String Publisher
     String distributor
     int noOfPages = 0
 
