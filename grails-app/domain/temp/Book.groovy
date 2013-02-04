@@ -8,6 +8,7 @@ class Book {
     String Publisher
     String distributor
     int noOfPages = 0
+    String Version
     String type
 
     static constraints = {
