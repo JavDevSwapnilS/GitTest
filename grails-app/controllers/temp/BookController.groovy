@@ -12,11 +12,12 @@ class BookController {
     }
 
     def createBooks () {
-        def List<Book> bookList = Book.list()
         render (view:"createBooks")
     }
 
     def saveBooks () {
+        Book book = new Book(params)
+        book = book.save()
         def List<Book> bookList = Book.list()
         render (view:"listBooks", model: [bookList : bookList])
     }
